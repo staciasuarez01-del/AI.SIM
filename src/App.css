@@ -1,0 +1,9 @@
+.app-container {
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.lesson-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
