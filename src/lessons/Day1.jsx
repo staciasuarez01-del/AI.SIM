@@ -15,7 +15,7 @@ function Day1() {
       <div className="flex gap-4 mb-6 flex-wrap">
         {['hook', 'detective', 'benefits', 'challenges'].map(tab => (
           <button key={tab} onClick={() => setActiveTab(tab)} className={`px-6 py-3 rounded-lg font-semibold transition ${activeTab === tab ? 'bg-trust-blue text-white' : 'glass-morphism text-gray-700 hover:bg-white/50'}`}>
-            {tab === 'hook' && '💭 What is AI?'}
+            {tab === 'hook' && '💬 What is AI?'}
             {tab === 'detective' && '🔍 Image Detective'}
             {tab === 'benefits' && '✅ Benefits'}
             {tab === 'challenges' && '⚠️ Challenges'}
@@ -26,7 +26,7 @@ function Day1() {
       <div className="glass-morphism rounded-lg p-8">
         {activeTab === 'hook' && (
           <div>
-            <h2 className="text-3xl font-bold text-trust-blue mb-4">💭 What is Artificial Intelligence?</h2>
+            <h2 className="text-3xl font-bold text-trust-blue mb-4">💬 What is Artificial Intelligence?</h2>
             <p className="text-lg text-gray-700 mb-6">
               AI is technology that learns patterns and makes decisions, like a very smart computer program.
             </p>
@@ -89,7 +89,7 @@ function Day1() {
                 <p className="text-gray-700">Even smart AI systems sometimes give wrong answers</p>
               </div>
               <div className="bg-yellow-50 p-6 rounded-lg border-2 border-trust-yellow">
-                <h3 className="font-bold text-lg text-trust-yellow mb-2">🔒 Privacy Concerns</h3>
+                <h3 className="font-bold text-lg text-trust-yellow mb-2">🔐 Privacy Concerns</h3>
                 <p className="text-gray-700">AI collects data about you - we need to protect privacy</p>
               </div>
               <div className="bg-yellow-50 p-6 rounded-lg border-2 border-trust-yellow">

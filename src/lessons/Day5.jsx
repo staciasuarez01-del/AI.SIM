@@ -131,13 +131,7 @@ function Day5() {
                 <textarea
                   value={reflectionText}
                   onChange={(e) => setReflectionText(e.target.value)}
-                  placeholder="Share your thoughts on:
-- What surprised you about AI this week?
-- What's one way you can use AI responsibly?
-- What questions do you still have?
-- How can AI help solve problems?
-
-Type your ideas here..."
+                  placeholder="Share your thoughts on:\n- What surprised you about AI this week?\n- What's one way you can use AI responsibly?\n- What questions do you still have?\n- How can AI help solve problems?\n\nType your ideas here..."
                   className="w-full p-4 border-2 border-trust-blue rounded-lg focus:outline-none focus:ring-2 focus:ring-trust-blue"
                   rows="8"
                 />

@@ -17,7 +17,7 @@ function Day4() {
           <button key={tab} onClick={() => setActiveTab(tab)} className={`px-6 py-3 rounded-lg font-semibold transition ${activeTab === tab ? 'bg-trust-blue text-white' : 'glass-morphism text-gray-700 hover:bg-white/50'}`}>
             {tab === 'simulation' && '📬 Envelope Challenge'}
             {tab === 'tampering' && '🔥 How Tampering Happens'}
-            {tab === 'encryption' && '🔒 Encryption'}
+            {tab === 'encryption' && '🔐 Encryption'}
             {tab === 'consequences' && '⚠️ Consequences'}
           </button>
         ))}
@@ -58,7 +58,7 @@ function Day4() {
         )}
         {activeTab === 'encryption' && (
           <div>
-            <h2 className="text-3xl font-bold text-trust-blue mb-4">🔒 Encryption: Protecting Information</h2>
+            <h2 className="text-3xl font-bold text-trust-blue mb-4">🔐 Encryption: Protecting Information</h2>
             <div className="space-y-4">
               <div className="bg-blue-50 p-6 rounded-lg border-2 border-trust-blue">
                 <h3 className="font-bold text-lg text-trust-blue mb-3">What is Encryption?</h3>
@@ -71,20 +71,20 @@ function Day4() {
               <div className="bg-green-50 p-6 rounded-lg border-2 border-trust-green">
                 <h3 className="font-bold text-lg text-trust-green mb-3">✅ How Encryption Helps:</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>🔐 Information becomes unreadable to hackers</li>
+                  <li>🔑 Information becomes unreadable to hackers</li>
                   <li>🛡️ Changes are obvious - you can see if it was tampered with</li>
                   <li>✓ Only the correct person can decrypt (unlock) it</li>
-                  <li>🔑 Uses special mathematical keys</li>
+                  <li>🔐 Uses special mathematical keys</li>
                 </ul>
               </div>
 
               <div className="bg-yellow-50 p-6 rounded-lg border-2 border-trust-yellow">
                 <h3 className="font-bold text-lg text-trust-yellow mb-3">🔑 Real Examples of Encryption:</h3>
                 <ul className="space-y-2 text-gray-700">
-                  <li>🔒 Banking passwords (HTTPS websites)</li>
+                  <li>🔐 Banking passwords (HTTPS websites)</li>
                   <li>💬 WhatsApp messages (end-to-end encrypted)</li>
-                  <li>🏦 Credit card numbers at checkout</li>
-                  <li>📲 Your phone's fingerprint data</li>
+                  <li>🏪 Credit card numbers at checkout</li>
+                  <li>📱 Your phone's fingerprint data</li>
                 </ul>
               </div>
             </div>
@@ -113,7 +113,7 @@ function Day4() {
                 </p>
               </div>
               <div className="bg-red-50 p-6 rounded-lg border-2 border-trust-red">
-                <h3 className="font-bold text-lg text-trust-red mb-2">🎓 Danger: False Information</h3>
+                <h3 className="font-bold text-lg text-trust-red mb-2">📰 Danger: False Information</h3>
                 <p className="text-gray-700">
                   If news data is tampered with, AI could spread misinformation to millions of people!
                 </p>

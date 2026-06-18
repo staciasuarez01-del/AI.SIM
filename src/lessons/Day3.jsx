@@ -48,7 +48,7 @@ function Day3() {
                   <ul className="space-y-2 text-gray-700">
                     <li>📍 Located nearby</li>
                     <li>⚡ Instant response</li>
-                    <li>🔒 More private</li>
+                    <li>🔐 More private</li>
                     <li>💰 Less expensive</li>
                     <li>🌐 Works without internet</li>
                   </ul>
@@ -89,7 +89,7 @@ function Day3() {
                 <p className="text-gray-700">Instant decisions without waiting for internet connection</p>
               </div>
               <div className="bg-green-50 p-6 rounded-lg border-l-4 border-trust-green">
-                <h3 className="font-bold text-lg text-trust-green mb-2">🔒 Privacy</h3>
+                <h3 className="font-bold text-lg text-trust-green mb-2">🔐 Privacy</h3>
                 <p className="text-gray-700">Not all your data goes to the cloud - some stays local and private</p>
               </div>
               <div className="bg-green-50 p-6 rounded-lg border-l-4 border-trust-green">
